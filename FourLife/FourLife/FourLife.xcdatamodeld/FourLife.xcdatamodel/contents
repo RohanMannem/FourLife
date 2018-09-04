@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C205" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercise" representedClassName="ExerciseMO" syncable="YES" codeGenerationType="class">
+        <attribute name="iCheck" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="iDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="iName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FoodItem" representedClassName="FoodItemMO" syncable="YES" codeGenerationType="class">
+        <attribute name="iCals" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iCarbs" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="iFats" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iName" attributeType="String" syncable="YES"/>
+        <attribute name="iPicture" attributeType="Binary" syncable="YES"/>
+        <attribute name="iProteins" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iServingSize" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-63" positionY="45" width="128" height="120"/>
+        <element name="FoodItem" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
